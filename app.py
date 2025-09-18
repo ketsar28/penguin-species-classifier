@@ -12,11 +12,11 @@ from sklearn.ensemble import RandomForestClassifier
 from PIL import Image, ImageFile
 
 st.set_page_config(
-        page_title='Pinguin Classifier',
+        page_title='Penguin Classifier',
         page_icon='🐧'
     )
 
-st.title('🐧 Pinguin Classifier App')
+st.title('🐧 Penguin Classifier App')
 image = Image.open(r'penguin.jpg')
 st.image(image)
 
@@ -142,3 +142,4 @@ st.success(str(penguin_species[y_pred[0]]))
     
     
     
+
